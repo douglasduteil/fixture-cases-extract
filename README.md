@@ -12,10 +12,10 @@ npm i fixture-cases-extract
 
 ```js
 var path = require('path')
-var fixtureCasesExtract = require('fixture-cases-extract'),
+var fixtureCasesExtract = require('fixture-cases-extract')
 
 fixtureCasesExtract({
-  basePath: path.join(__dirname, 'fixtures')
+  basePath: path.join(__dirname, 'fixtures'),
   fileMap: {
     actual: 'actual.json',
     expected: 'expected.json',
