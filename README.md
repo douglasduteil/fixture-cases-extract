@@ -1,5 +1,7 @@
 # fixture-cases-extract
 
+[![Build Status](https://travis-ci.org/douglasduteil/fixture-cases-extract.svg?branch=master)](https://travis-ci.org/douglasduteil/fixture-cases-extract)
+
 > Extract test target files from each case directories
 
 ## Install
