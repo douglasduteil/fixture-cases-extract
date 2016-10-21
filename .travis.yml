@@ -1,0 +1,20 @@
+---
+git:
+  depth: 1
+sudo: false
+language: node_js
+cache:
+  directories:
+  - $HOME/.npm
+  - .eslintcache
+  - node_modules
+matrix:
+  fast_finish: true
+  include:
+    #
+    - node_js: node
+    - node_js: '6'
+    - node_js: '4'
+    - node_js: '5'
+before_install:
+  - "npm install -g npm"
