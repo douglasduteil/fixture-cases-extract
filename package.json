@@ -27,6 +27,9 @@
     "fixtures",
     "directory"
   ],
+  "greenkeeper": {
+    "branchPrefix": "chore-pkg-greenkeeper-"
+  },
   "author": {
     "name": "Douglas Duteil",
     "email": "douglasduteil@gmail.com"
